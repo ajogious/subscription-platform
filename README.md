@@ -21,3 +21,12 @@ A minimal subscription platform where users can access free content and unlock p
 
 - /frontend → Next.js app
 - /backend → Spring Boot API
+
+## Development Progress
+
+### Phase 1 – Backend Core (In Progress)
+
+- PostgreSQL database configured
+- User, Content, and Subscription tables created
+- JPA entities and repositories set up
+- Sample free and premium content added manually via pgAdmin
