@@ -30,3 +30,6 @@ A minimal subscription platform where users can access free content and unlock p
 - User, Content, and Subscription tables created
 - JPA entities and repositories set up
 - Sample free and premium content added manually via pgAdmin
+- User registration and login implemented
+- Passwords securely hashed using BCrypt
+- JWT authentication implemented for user login
