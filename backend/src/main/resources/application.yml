@@ -21,3 +21,7 @@ spring:
   jwt:
     secret: MCvd6MXYdF8kt0yTbSV/OTF6uftq2OQB/m9ZJpzJ6Y0=
     expiration: 86400000
+
+  paystack:
+    secret-key: sk_test_08bd1137b887f9a48d110fbd4da8942d41ad0e0f
+    callback-url: http://localhost:8080/paystack/webhook

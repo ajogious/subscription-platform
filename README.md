@@ -33,3 +33,4 @@ A minimal subscription platform where users can access free content and unlock p
 - User registration and login implemented
 - Passwords securely hashed using BCrypt
 - JWT authentication implemented for user login
+- Working on subscription and paystack

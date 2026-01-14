@@ -16,15 +16,22 @@ import lombok.*;
 public class Subscription {
 
     @Id
+    @GeneratedValue
+    @Column(columnDefinition = "uuid")
     private UUID id;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "user_id", nullable = false)
     private User user;
+
+    private String paystackReference;
 
     private BigDecimal amount;
 
     private String status;
 
     private LocalDateTime createdAt = LocalDateTime.now();
+
+    private LocalDateTime expiresAt;
+
 }
